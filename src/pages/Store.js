@@ -17,7 +17,7 @@ function Store() {
       >
         unsplash.com
       </a>
-      <h1>Check out today's best for you</h1>
+      <h1 className='glow'>Check out today's best for you</h1>
       <div>
         <div className='row'>{imageElements}</div>
       </div>
