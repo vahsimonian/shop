@@ -62,8 +62,6 @@ header {
 }
 
 .store-container {
-  /* text-align: center; */
-  align-items: center;
   /* border: 2px solid magenta; */
   max-width: 100vw;
   background: rgb(106, 98, 98);
@@ -179,7 +177,9 @@ header {
 .row {
   /* border: 2px solid magenta; */
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
+  margin: 0 auto;
   gap: 25px;
   max-width: 750px;
 }
